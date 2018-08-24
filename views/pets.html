@@ -1,0 +1,27 @@
+<div class="content">
+    <div class="text-block">
+        <h3><span class="highlight">Pets</span></h3>
+        <ul id="pet-buttons">
+            <li><button ng-click="show  = 'Cat' ">Cats</button></li>
+            <li><button ng-click="show  = 'Dog' ">Dogs</button></li>
+            <li><button ng-click="show = 'Other' ">Other</button></li>
+        </ul>
+        <ul id="avail-buttons">
+            <li><button ng-click="avail = true ">Available</button></li>
+            <li><button ng-click="avail = false ">Unavailable</button></li>
+        </ul>
+    
+
+        <p ng-repeat="mes in message" ng-show="mes.type == show">{{mes.message}}</p>
+        <p ng-show="message2.available == avail">{{message2.message}}</p>
+
+
+        <ul>
+            <li ng-repeat="pet in pets | orderBy: 'age'" ng-show="pet.type == show && pet.available == avail">
+                <a href="{{pet.fullSize}}"><img ng-src="{{pet.thumb}}" /></a>
+                {{pet.name}} - {{pet.age}} weeks
+            </li>
+
+        </ul>
+    </div>
+</div>

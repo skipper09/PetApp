@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myPetApp">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dallas Animal Shelter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="content/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <script src="app/lib/angular.min.js"></script>
+    <script src="app/lib/angular-route.min.js"></script>
+    <script src="app/app.js"></script>
+    <!-- <script>
+        function parallax() {
+            var parallax1 = document.getElementById('parallax1');
+            parallax1.style.top = (-window.pageYOffset)/2 + 'px';
+        }
+
+        window.addEventListener("scroll", parallax, false);
+    </script> -->
+</head>
+
+<body>
+    <header ng-include="'header.html'"></header>
+    <main ng-view=""></main>
+</body>
+
+</html>

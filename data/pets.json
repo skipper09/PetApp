@@ -1,0 +1,46 @@
+[{
+	"name": "Sasha",
+	"type": "Cat",
+	"available": true,
+	"age": 8,
+	"thumb": "http://placekitten.com/50/50",
+	"fullSize": "http://placekitten.com/200/300"
+}, {
+	"name": "Raja",
+	"type": "Cat",
+	"available": true,
+	"age": 10,
+	"thumb": "http://placekitten.com/50/50",
+	"fullSize": "http://placekitten.com/200/300"
+}, {
+	"name": "MeowMix",
+	"type": "Cat",
+	"available": false,
+	"age": 10,
+	"thumb": "http://placekitten.com/50/50",
+	"fullSize": "http://placekitten.com/200/300"
+}, {
+	"name": "Doggo",
+	"type": "Dog",
+	"available": true,
+	"age": 8,
+	"thumb": "http://placepuppy.net/50/50",
+	"fullSize": "http://placepuppy.net/200/300"
+}, {
+	"name": "Swift",
+	"type": "Other",
+	"available": true,
+	"age": 104
+}, {
+	"name": "Django",
+	"type": "Other",
+	"available": true,
+	"age": 52
+}, {
+	"name": "Babby",
+	"type": "Dog",
+	"available": false,
+	"age": 8,
+	"thumb": "http://placepuppy.net/50/50",
+	"fullSize": "http://placepuppy.net/200/300"
+}]
